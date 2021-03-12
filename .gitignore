@@ -1,0 +1,8 @@
+node_modules
+
+# Deploy
+/dist
+.cache
+
+# Log
+/yarn-error.log

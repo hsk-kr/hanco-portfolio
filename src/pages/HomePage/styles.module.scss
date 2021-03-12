@@ -1,0 +1,77 @@
+.home-page {
+  .first-section {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #00000080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > h1,
+    p {
+      color: white;
+      margin: 0px;
+      text-align: center;
+    }
+
+    > h1 {
+      font-size: 5vw;
+      margin: 12px;
+    }
+
+    > p {
+      font-size: 2vw;
+      margin: 8px;
+    }
+
+    .btn-aboutme {
+      margin-top: 24px;
+      font-size: 2vw;
+    }
+
+    @media screen and (max-width: 1024px) {
+      > h1 {
+        font-size: 8vw;
+      }
+
+      > p {
+        font-size: 3vw;
+      }
+
+      .btn-aboutme {
+        font-size: 3vw;
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+      > h1 {
+        font-size: 12vw;
+      }
+
+      > p {
+        font-size: 5vw;
+      }
+
+      .btn-aboutme {
+        font-size: 5vw;
+      }
+    }
+
+    .bg {
+      z-index: -1;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+
+      > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
