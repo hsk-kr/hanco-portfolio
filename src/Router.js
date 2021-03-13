@@ -12,6 +12,9 @@ const Router = () => {
         <Route path="/" exact>
           <HomePage />
         </Route>
+        <Route path="/aboutme" exact>
+          <AboutMePage />
+        </Route>
       </Switch>
     </BrowserRouter>
   );
